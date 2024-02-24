@@ -1,0 +1,64 @@
+.header {
+  background-color: $header-bg;
+  border-bottom: .1px solid #c0c0c0; 
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  &-logo {
+    margin-left: 16px;
+    margin-right: 16px;
+    img{
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  }
+  &-search {
+    margin-left: 245px;
+    position: relative;
+    input {
+      background-color: hsla(0, 0%, 100%, 0.125);
+      width: 350px;
+      height: 30px;
+      padding: 7.5px;
+      font-size: 12px;
+      color: #1a1a1a;
+      border: .5px solid #333333;
+      border-radius: 35px;
+      margin-right: 8px;
+      border-radius: 3px;
+    }
+    i{
+        position: absolute;
+        right: 22.5px;
+        top: 7.5px;
+        color: #1a1a1a;
+        opacity: .5;
+      }
+
+    
+  }
+
+  &-links {
+    a {
+      color: #1a1a1a;
+      margin-right: 16px;
+      font-family: $my-font;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+
+  &-rightlinks {
+    margin-left: auto;
+    i{
+        color: #1a1a1a;
+        margin-left: 10px;
+    }
+    img{
+      border-radius: 50%;
+      margin-left: 30px;
+    }
+
+  }
+}

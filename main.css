@@ -1,0 +1,445 @@
+html {
+  line-height: 1.25;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.75em 0;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 75%;
+}
+
+sub,
+sup {
+  font-size: 62.5%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+img {
+  border-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-size: 100%;
+  line-height: 1.25;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+p,
+pre,
+fieldset,
+ul,
+ol,
+menu,
+form {
+  margin: 0;
+}
+
+button,
+fieldset,
+iframe {
+  border: 0;
+}
+
+fieldset,
+ul,
+ol,
+button,
+menu {
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td {
+  padding: 0;
+}
+
+.header {
+  background-color: #f9f9f9;
+  border-bottom: 0.1px solid #c0c0c0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.header-logo {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.header-logo img {
+  border-radius: 50%;
+  cursor: pointer;
+}
+.header-search {
+  margin-left: 245px;
+  position: relative;
+}
+.header-search input {
+  background-color: hsla(0, 0%, 100%, 0.125);
+  width: 350px;
+  height: 30px;
+  padding: 7.5px;
+  font-size: 12px;
+  color: #1a1a1a;
+  border: 0.5px solid #333333;
+  border-radius: 35px;
+  margin-right: 8px;
+  border-radius: 3px;
+}
+.header-search i {
+  position: absolute;
+  right: 22.5px;
+  top: 7.5px;
+  color: #1a1a1a;
+  opacity: 0.5;
+}
+.header-links a {
+  color: #1a1a1a;
+  margin-right: 16px;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.header-rightlinks {
+  margin-left: auto;
+}
+.header-rightlinks i {
+  color: #1a1a1a;
+  margin-left: 10px;
+}
+.header-rightlinks img {
+  border-radius: 50%;
+  margin-left: 30px;
+}
+
+.main {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.main-about {
+  margin-top: 20px;
+}
+.main-about img {
+  margin-top: 47.5px;
+  margin-right: 47.5px;
+  width: 291px;
+  height: 291px;
+  border-radius: 50%;
+}
+.main-about-title {
+  margin-top: 20px;
+}
+.main-about-title h4 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.main-about-title h5 {
+  padding-bottom: 30px;
+  font-size: 22.5px;
+  font-weight: lighter;
+}
+.main-about-title button {
+  width: 87.5%;
+  height: 37.5px;
+  border: 0.5px solid #c0c0c0;
+  background: none;
+  background-color: #f3f6f9;
+  background-image: linear-gradient(-180deg, #fafbfc, #efefef 90%);
+  border-radius: 7.5px;
+}
+.main-about-dsc {
+  margin-top: -8px;
+  margin-bottom: 8px;
+  width: 300px;
+  font-size: 17.6px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.main-text-area {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.main-text-area .text-area {
+  background-color: #f0f0f0;
+  border: 0.5px solid #c0c0c0;
+}
+.main-projects {
+  width: 100%;
+  margin-top: 20px;
+}
+.main-projects-links {
+  display: flex;
+  justify-content: space-between;
+}
+.main-projects-links a {
+  color: #555666;
+  font-size: 16px;
+}
+.main-projects .section {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-projects .section a {
+  font-size: 12px;
+  color: #bbb;
+}
+.main-projects .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-projects-bar {
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 10px;
+  border: 0.5px solid #c0c0c0;
+  width: 425.625px;
+  gap: 40px;
+  height: 100px;
+  position: relative;
+}
+.main-projects-bar .up {
+  display: flex;
+}
+.main-projects-bar .up a {
+  margin-left: 5px;
+}
+.main-projects-bar .up .right i {
+  position: absolute;
+  right: 10px;
+}
+.main-projects-bar p {
+  font-size: 16px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+a,
+p {
+  font-size: "Maven Pro", sans-serif;
+}
+
+a:hover, i:hover {
+  border-bottom: 0.5px solid #c0c0c0;
+  transition: all 0.25s;
+}
+
+img {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  border: 1.25px solid rgba(28, 30, 33, 0.25);
+  transition: all 0.25s;
+}/*# sourceMappingURL=main.css.map */
